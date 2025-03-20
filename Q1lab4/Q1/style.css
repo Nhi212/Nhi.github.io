@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    min-height: fit-content;
+    border: 1px solid #007bff;
+    text-align: left;
+}
+
+.logo {
+    display: block;
+    margin: 10px;
+    width: 100px;
+}
+
+h2 {
+    color: #007bff;
+    text-align: left;
+    margin-left: 10px;
+}
+p{
+    text-align: left;
+    margin-left: 10px; 
+}
+label{
+    text-align: left;
+    margin-left: 10px; 
+}
+.intro {
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+legend {
+    font-weight: bold;
+    color: #007bff;
+    font-size: 16px;
+    text-align: left;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.form-group label {
+    width: 150px;
+    font-weight: bold;
+    text-align: left;
+    padding-right: 10px;
+}
+
+.form-group input, 
+.form-group select {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 35px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
